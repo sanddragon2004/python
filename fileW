@@ -1,0 +1,17 @@
+#this is a write file program. it takes a file in local dir called "what" and writes user data to it.
+
+#defines the save location
+where = raw_input("enter location to save file")
+#defines where
+text = raw_input("enter data you want in the file here")
+
+#opens file called where in w mode
+saveFile = open(where, 'w')
+
+#writes data from the var "text" to the file
+saveFile = write(text)
+
+#closes the file
+saveFile.close()
+
+done
